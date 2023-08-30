@@ -1,0 +1,234 @@
+.club-products {
+    padding: 50px 134px;
+}
+
+.club-products h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color: #1B2223;
+    text-shadow: 0 0 100px #1B2223,
+    0 0 50px  #1B2223,
+    0 0 25px  #1B2223,
+    0 0 0px #1B2223;
+}
+
+.club-products h2:hover {
+    text-shadow: 0 0 100px #4aa0c4,
+    0 0 50px  #4aa0c4,
+    0 0 25px  #4aa0c4,
+    0 0 0px #4aa0c4;
+}
+
+.club-products .list-products {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.club-products .list-products .item {
+    width: 290px;
+    height: 399px;
+    background: #1B2223;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.club-products .list-products .item img {
+    display: block;
+    width: 290px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.club-products .list-products .item .name{
+    text-align: center;
+    color: #F4FEFD;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.club-products .list-products .item .price {
+    text-align: center;
+    font-weight: bold;
+    color: #F4FEFD;
+    margin-top: 5px;
+}
+
+.club-products .list-products .item .price del {
+    margin-right: 10px;
+}
+
+.club-products .list-products .item .btn-buy {
+    width: 290px;
+    height: 40px;
+    background: #4aa0c4;
+    margin-top: 13px;
+    border: none;
+    outline: none;
+    color: #F4FEFD;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.club-products .list-products .item .btn-buy:hover {
+    background-color: #3A4F50;
+}
+
+.footer {
+    width: 100%;
+    background: #1B2223;
+    height: 400px;
+    padding: 60px 0px 63px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer-box {
+    width: 250px;
+    color: #F4FEFD;
+}
+
+.footer .footer-box .information-name{
+    margin-bottom: 10px;
+}
+
+.footer .footer-box .information-name span {
+    margin-bottom: 10px;
+    color: #0EF6CC;
+}
+
+.footer .footer-box .information-text{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.footer .footer-box .quick-menu {
+    margin-top: 25px;
+}
+
+.footer .footer-box .quick-menu .item {
+    margin-bottom: 12px;
+}
+
+.footer .footer-box .quick-menu ,.item p {
+    color: #F4FEFD;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.footer .footer-box .information-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-box .information-icons a{
+    color: #F4FEFD;
+}
+
+.footer .footer-box .information-icons .fa-brands {
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1B2223;
+    box-shadow: 0 0 10px 1px; 
+    transition: .5s;
+}
+
+.icon1:hover {
+    color: #0051ff;
+}
+
+.icon2:hover {
+    color: #80c8ff;
+}
+
+.icon3:hover {
+    color: #db0cc3;
+}
+
+.icon4:hover {
+    color: #ff0808;
+}
+
+.cart-icon {
+    position: fixed;
+    right: 0;
+    top: 90%;
+    background-color: #0EF6CC;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    color: #F4FEFD;
+}
+
+.cart-count {
+    margin-left: 5px;
+}
+
+#cartForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F4FEFD;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 45%;
+    max-height: 75%;
+    overflow: auto;
+    max-width: 90%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #F4FEFD;
+}
+
+
+#cartForm h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin-bottom: 8px;
+}
+
+#cartForm h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#cartForm label {
+    display: block;
+    margin-bottom: 5px;
+}

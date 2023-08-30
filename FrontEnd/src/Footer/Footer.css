@@ -1,0 +1,90 @@
+.footer {
+    width: 100%;
+    background: #1B2223;
+    height: 400px;
+    padding: 60px 0px 63px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item span {
+    color: #4aa0c4;
+}
+
+.footer .footer-box {
+    width: 250px;
+    color: #F4FEFD;
+}
+
+.box1 h3{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-box .information-name{
+    margin-bottom: 10px;
+}
+
+.footer .footer-box .information-name span {
+    margin-bottom: 10px;
+    color: #4aa0c4;
+}
+
+.footer .footer-box .information-text{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.footer .footer-box .quick-menu {
+    margin-top: 25px;
+}
+
+.footer .footer-box .quick-menu .item {
+    margin-bottom: 12px;
+}
+
+.footer .footer-box .quick-menu ,.item p {
+    color: #F4FEFD;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.footer .footer-box .information-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-box .information-icons a{
+    color: #F4FEFD;
+}
+
+.footer .footer-box .information-icons .fa-brands {
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1B2223;
+    box-shadow: 0 0 10px 1px; 
+    transition: .5s;
+}
+
+.icon1:hover {
+    color: #0051ff;
+}
+
+.icon2:hover {
+    color: #80c8ff;
+}
+
+.icon3:hover {
+    color: #db0cc3;
+}
+
+.icon4:hover {
+    color: #ff0808;
+}

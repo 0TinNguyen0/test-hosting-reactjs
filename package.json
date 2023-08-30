@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@react-navigation/native": "^6.1.7",
+    "react-router-dom": "^6.15.0",
+    "styled-components": "^6.0.7"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
+}
